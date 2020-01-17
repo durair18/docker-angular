@@ -10,7 +10,7 @@ RUN ng build --prod
 
 
 # base image
-FROM nginx:1.16.0-alpine
+#FROM nginx:1.16.0-alpine
 
 # copy artifact build from the 'build environment'
-COPY --from=build /app/dist /usr/share/nginx/html
+#COPY --from=build /app/dist /usr/share/nginx/html
